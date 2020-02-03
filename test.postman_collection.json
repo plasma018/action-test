@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "a2823908-5bbc-4fb0-a3f3-1c7a0b33de62",
+		"name": "test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "actionPrint",
+			"item": [
+				{
+					"name": "api",
+					"item": [
+						{
+							"name": "companyPrint",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Upgrade-Insecure-Requests",
+										"value": "1"
+									},
+									{
+										"key": "User-Agent",
+										"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"
+									},
+									{
+										"key": "Sec-Fetch-User",
+										"value": "?1"
+									},
+									{
+										"key": "Accept",
+										"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+									}
+								],
+								"url": {
+									"raw": "https://127.0.0.1/vip/api/cust/print",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"path": [
+										"vip",
+										"api",
+										"cust",
+										"print"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "companyPrint",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Upgrade-Insecure-Requests",
+								"value": "1"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+							},
+							{
+								"key": "Sec-Fetch-User",
+								"value": "?1"
+							},
+							{
+								"key": "Accept",
+								"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3"
+							}
+						],
+						"url": {
+							"raw": "https://127.0.0.1/vip/cust/print",
+							"protocol": "https",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"path": [
+								"vip",
+								"cust",
+								"print"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
